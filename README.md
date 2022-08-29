@@ -3,5 +3,5 @@ The annoying thing about Soulseek is that it puts all your downloads into either
 This script extracts all completed downloads into the "extracted" folder so that you don't need to go fish out each completed track, and instead just load all the extracted songs in one go to the DJ software of your choosing. 
 
 How to use:
-Windows - use the .bat file /n
+Windows - use the .bat file
 Mac - use the .sh file
