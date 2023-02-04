@@ -1,0 +1,18 @@
+=====================================================================
+================ Extraction date: 04/02/2023 17:35:44================
+
+Starting extraction: 
+
+This is the beginning of the extraction logfile. Enjoy! -- jintaco 
+Extraction folder already exists. Appending the following files...
+		extract_log.txt
+		folder_2_1.txt
+		folder_2_2.txt
+		folder_1_1.txt
+Cleaning up complete folder...
+removing foldr2
+removing foldr_1
+Cleaning up downloading folder...
+Extraction complete!
+=====================================================================
+
