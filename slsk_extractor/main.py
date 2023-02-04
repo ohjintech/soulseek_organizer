@@ -36,12 +36,12 @@ def cleanup(path, log):
     return 1
 
   for dir in os.listdir(cleanpath):
-
-    fullpath = os.path.join(cleanpath,dir)
-    if len(os.listdir(fullpath)) == 0:
-      #remove empty directory
-      log.write(f"removing {dir}\n")
-      os.rmdir(fullpath)        
+    dir_path = os.path.join(cleanpath, dir)
+    try:
+        if os.path.isdir(dir_path):
+            shutil.rmtree(dir_path)            
+    except Exception as e:
+        log.write(f'Failed to delete %s. Reason: %s\n' % (dir_path, e))    
 
 def main() :
 
