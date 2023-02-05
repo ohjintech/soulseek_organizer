@@ -1,0 +1,5 @@
+#production
+/build
+*.pyd
+*.dll
+*.zip
