@@ -6,7 +6,7 @@ This script extracts all completed downloads into the "extracted" folder so that
 
 # How to Use:
 
-1. move slsk_extract.exe into the download folder ('<your_path_to>/Soulseek Downloads')
+1. move slsk_extract.exe into the download folder (`<your_path_to>/Soulseek Downloads`)
 2. Run the program
 3. All files from the "completed" folder will be moved to the newly created "extracted folder"
 4. Check the extract_log.txt for a comprehensive of list of your downloads
