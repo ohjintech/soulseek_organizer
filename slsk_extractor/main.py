@@ -6,7 +6,6 @@ from pathlib import Path
 
 def recursive_copy(src, destination, log):
    
-
     from_path = os.path.join(os.getcwd(), src)
     dest_path = os.path.join(os.getcwd(), destination)
 
